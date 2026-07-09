@@ -1,0 +1,70 @@
+{
+  "stage_id": "1013R_R223W_P0_ARTIFACT_LINEAGE_AND_SOURCE_OF_TRUTH_CONTRACT",
+  "status": "canonical_teacher_manuscript_sources",
+  "teacher_manuscript_source_of_truth": [
+    {
+      "sample_id": "M_stationery",
+      "title": "我为文具代言 第三阶段 智造·新朋友",
+      "canonical_stage": "1013R_R223M_P4_P1_NOTE_WEIGHT_REDUCTION_AND_MARGINIZATION",
+      "canonical_file": "R223M_P4_P1_teacher_readable_process_v6.html",
+      "local_path": "D:/Documents/SmartEdu/xiaobei-core/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223M_P4_P1_NOTE_WEIGHT_REDUCTION_AND_MARGINIZATION/R223M_P4_P1_teacher_readable_process_v6.html",
+      "role": "golden_classroom_event_expansion_standard_sample",
+      "body_edit_allowed_here": false,
+      "body_edit_route": "return_to_R223M_teacher_manuscript_line"
+    },
+    {
+      "sample_id": "N_paper_print",
+      "title": "有趣的纸印",
+      "canonical_stage": "1013R_R223N_P3_P1_LIGHT_SAMPLE_FLAVOR_AND_LAYOUT_POLISH",
+      "canonical_file": "R223N_P3_P1_teacher_manuscript_draft_v5.html",
+      "local_path": "D:/Documents/SmartEdu/xiaobei-core/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223N_P3_P1_LIGHT_SAMPLE_FLAVOR_AND_LAYOUT_POLISH/R223N_P3_P1_teacher_manuscript_draft_v5.html",
+      "role": "material_technique_transfer_sample",
+      "body_edit_allowed_here": false,
+      "body_edit_route": "return_to_R223N_teacher_manuscript_line"
+    },
+    {
+      "sample_id": "O_color_collision",
+      "title": "色彩的碰撞",
+      "canonical_stage": "1013R_R223O_P1_COLOR_MANUSCRIPT_STRUCTURE_RECOVERY",
+      "canonical_file": "R223O_P1_teacher_manuscript_draft_v2.html",
+      "local_path": "D:/Documents/SmartEdu/xiaobei-core/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223O_P1_COLOR_MANUSCRIPT_STRUCTURE_RECOVERY/R223O_P1_teacher_manuscript_draft_v2.html",
+      "role": "color_perception_transfer_sample",
+      "body_edit_allowed_here": false,
+      "body_edit_route": "return_to_R223O_teacher_manuscript_line"
+    }
+  ],
+  "sandbox_review_shells": [
+    {
+      "stage": "1013R_R223T_FIXTURE_ONLY_SANDBOX_PREVIEW",
+      "file": "R223T_fixture_only_sandbox_preview.html",
+      "role": "v0_1_v0_2_candidate_comparison_shell",
+      "teacher_body_source_of_truth": false,
+      "body_edit_allowed": false
+    },
+    {
+      "stage": "1013R_R223U_SANDBOX_TEACHER_REVIEW",
+      "role": "sandbox_walkthrough_review",
+      "teacher_body_source_of_truth": false,
+      "body_edit_allowed": false
+    },
+    {
+      "stage": "1013R_R223V_SANDBOX_REDUCTION_OR_PILOT_HOLD",
+      "role": "sandbox_reduction_decision",
+      "teacher_body_source_of_truth": false,
+      "body_edit_allowed": false
+    },
+    {
+      "stage": "1013R_R223W_REVIEW_ONLY_PILOT_GATE_SPEC",
+      "role": "future_review_only_pilot_gate_shell",
+      "teacher_body_source_of_truth": false,
+      "body_edit_allowed": false
+    }
+  ],
+  "forbidden_new_baselines": [
+    "R223W_teacher_draft",
+    "R223W_teacher_manuscript",
+    "R223X_teacher_draft",
+    "sandbox_preview_as_final_teacher_page"
+  ]
+}
+
